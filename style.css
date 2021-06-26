@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: lighter;
+}
+nav{
+    background-color: paleturquoise;
+    min-height: 80px;
+}
+.container{
+    background-color: yellow;
+    border: 5px solid rgb(112, 108, 108);
+    width: 70%;
+    min-height: 80px;
+    margin: 0 auto;
+    gap: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#containernav{
+    display: flex;
+}
+#menu{
+    min-height: 50px;
+    width: auto;
+    border: 3px solid rgb(0, 255, 34);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 2;
+}
+#menu h1{
+    color: white;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#button{
+    height: 50px;
+    width: auto;
+    border: 3px solid pink;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 1;
+}
+#button button{
+    height: 60%;
+    width: 50%;
+    vertical-align: center;
+    align-items: right;
+    margin: 10px 0px auto auto;
+    color: white;
+    background-color: rgb(52, 192, 178);
+    border: none;
+}
+main{
+    height: auto;
+    width: auto;
+    border: 5px dotted black;
+}
+#content{
+    min-height: 200px;
+    border: 3px solid blue;
+    flex: 2;
+}
+#usercard{
+    min-height: 400px;
+    border: 3px dotted rgb(0, 238, 255);
+    flex: 1;
+    margin: 30px 25px 30px auto;
+}
+#usercardrowtop{
+    min-height: 100px;
+    width: auto;
+    background-color: rgb(52, 192, 178);
+}
+#icondot{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(179, 177, 177);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+#usericon{
+    height: 100px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+#usercardrowbottom{
+    min-height: 300px;
+    width: auto;
+    background-color: white;
+}
+#usercardrowbottom h1{
+    color: black;
+    margin: 50px auto auto 20px;
+}
+#mapmarker{
+    height: 20px;
+    margin: 10px auto 10px 20px;
+}
+#location h2{
+    font-size: 20px;
+    margin: 0px auto 10px 20px;
+    position: relative;
+    bottom: 33px;
+    left: 30px;
+}
+p{
+    color: black;
+    font-size: 15px;
+}
+#gear{
+    height: 20px;
+}
+#education{
+    min-height: 380px;
+    border: 3px dotted rgb(0, 183, 255);
+    flex: 1;
+    margin: 30px 25px 20px auto;
+}
+#educationrowtop{
+    min-height: 60px;
+    width: auto;
+}
+#educationrowbottom{
+    min-height: 315px;
+    width: auto;
+}
+#aside{
+    min-height: 880px;
+    border: 3px solid red;
+    flex: 1;
+    vertical-align: top;
+}
+#requests{
+    min-height: 200px;
+    border: 3px dotted rgb(247, 102, 102);
+    flex: 1;
+    margin: 35px auto;
+}
+#requestsrowtop{
+    min-height: 60px;
+    width: auto;
+}
+#dot2{
+    height: 50px;
+    width: 50x;
+    border-radius: 50%;
+    border: 3px solid orange;
+}
+#requestsrowbottom{
+    min-height: 150px;
+    width: auto;
+}
+.dotrequests{
+    height: 40px;
+    width: auto;
+}
+#connections{
+    min-height: 300px;
+    border: 3px dotted rgb(190, 95, 95);
+    flex: 1;
+}
+#connectionsrowtop{
+    min-height: 60px;
+    width: auto;
+}
+#connectionsrowmid{
+    min-height: 200px;
+    width: auto;
+}
+#connectionsrowbottom{
+    min-height: 50px;
+    width: auto;
+}
+#ppl{
+    height: 40px;
+    width: auto;
+}
+
+ul{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 2;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    vertical-align: center;
+    margin: 5px;
+}
+.row{
+    border: 5px dotted rgb(15, 211, 80);
+}
